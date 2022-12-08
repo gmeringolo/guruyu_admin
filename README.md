@@ -36,5 +36,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Sass
 
-### `npm i node-sass`
+### `npm install sass`
 
