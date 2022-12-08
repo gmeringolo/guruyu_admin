@@ -1,0 +1,50 @@
+@use "sass:map";
+@import "../../styles/base/fonts";
+@import "../../styles/base/colors";
+@import "../../styles/globals";
+
+nav {
+  background-color: map.get($colors, "background-primary");
+  height: 60px;
+  width: 100%;
+  margin: 0px;
+  font-family: $fontFamilyRaleway;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    .enlace{
+      margin-left: 150px;
+      .logo {
+        height: 50px;
+        
+      }
+    }
+
+    
+
+    ul {
+      li {
+        display: inline-block;
+        text-align: center;
+
+        a {
+          color: map.get($colors, "text-secondary");
+          padding: 20px;
+
+          &:hover{
+            background-color: map.get($colors, "background-terc");
+          }
+        }
+      }
+    }
+  }
+  .exit {
+    height: 30px;
+    margin-right: 150px;
+  }
+}
