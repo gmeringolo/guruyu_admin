@@ -17,15 +17,12 @@ nav {
     display: flex;
     align-items: center;
 
-    .enlace{
+    .enlace {
       margin-left: 150px;
       .logo {
         height: 50px;
-        
       }
     }
-
-    
 
     ul {
       li {
@@ -36,7 +33,7 @@ nav {
           color: map.get($colors, "text-secondary");
           padding: 20px;
 
-          &:hover{
+          &:hover {
             background-color: map.get($colors, "background-terc");
           }
         }
