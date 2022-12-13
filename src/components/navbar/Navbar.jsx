@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./navbar.module.scss";
-import logo from "./LogoNav.png";
-import exit from "./exit.png";
+import logo from "./LogoNav.svg";
+import exit from "./exit.svg";
 
 function Navbar() {
   return (

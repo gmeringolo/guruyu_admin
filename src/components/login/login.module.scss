@@ -1,0 +1,45 @@
+@use "sass:map";
+@import "../../styles/base/fonts";
+@import "../../styles/base/colors";
+@import "../../styles/globals";
+
+body {
+  background-color: map.get($colors, "background-primary");
+
+  form {
+    background-color: map.get($colors, "background-basic");
+    height: 435px;
+    width: 430px;
+    margin: 96px auto;
+
+    img {
+      margin: 15px 127px 12px ;
+    }
+
+    input {
+      background-color: map.get($colors, "input-background");
+      color: map.get($colors, "input-text");
+      font-size: 15px;
+      font-family: $fontFamilyInter;
+      font-weight: 300;
+      border: 1px solid map.get($colors, "input-border");
+      border-radius: 5px;
+      margin: 8px 75px;
+      width: 65%;
+      padding-left: 15px;
+      height: 35px;
+    }
+
+    button {
+      background-color: map.get($colors, "background-secondary");
+      color: map.get($colors, "text-secondary");
+      font-size: 14px;
+      font-family: $fontFamilyInter;
+      margin: 16px 75px;
+      width: 65%;
+      height: 35px;
+      border: 1px solid map.get($colors, "background-terc");
+      border-radius: 12px;
+    }
+  }
+}
